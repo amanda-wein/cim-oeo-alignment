@@ -1,0 +1,4 @@
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	confidence	author_id	comment
+cim:Area	Area	skos:exactMatch	oeo:00020143	area value	semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:OperationalLimit	OperationalLimit	skos:broadMatch	stato:0000633	cutoff	semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:Tornado	Tornado	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	

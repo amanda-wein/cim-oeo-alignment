@@ -1,0 +1,16 @@
+# curie_map:
+#   cim: http://www.iec.ch/TC57/CIM#
+#   oeo: https://openenergyplatform.org/ontology/oeo/OEO_
+#   bfo: http://purl.obolibrary.org/obo/BFO_
+#   iao: http://purl.obolibrary.org/obo/IAO_
+#   semapv: https://w3id.org/semapv/vocab/
+#   skos: http://www.w3.org/2004/02/skos/core#
+#   sssom: https://w3id.org/sssom/
+#   stato: http://purl.obolibrary.org/obo/STATO_
+#   orcid: https://orcid.org/
+#   uo: http://purl.obolibrary.org/obo/UO_
+# license: todo
+# mapping_set_id: todo
+# mapping_set_description: "This manually curated mapping set aligns the Common Information Model (CIM) with the Open Energy Ontology (OEO). It was created by the NFDI4Energy consortium (https://nfdi4energy.uol.de/)."
+# subject_source: todo, either https://modellen.netbeheernederland.nl/tc57cim/cim17/index.html or https://raw.githubusercontent.com/cimug-org/IEC-CIM-Ontology/refs/heads/main/TheCimOntology.owl maybe?
+# object_source: https://openenergyplatform.org/ontology/oeo/
