@@ -1,4 +1,404 @@
 subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	confidence	author_id	comment
+cim:ACLineSegment	ACLineSegment		oeo:00000047	AC-line	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
 cim:Area	Area	skos:exactMatch	oeo:00020143	area value	semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:Asset	Asset		oeo:00000061	artificial object	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:MaterialItem	MaterialItem		oeo:00000061	artificial object	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:UndergroundStructure	UndergroundStructure		oeo:00000061	artificial object	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Author	Author		oeo:00000064	author	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:BatteryUnit	BatteryUnit		oeo:00000068	battery	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Bid	Bid		oeo:00140121	bid	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:DrumBoiler	DrumBoiler		oeo:00310013	boiler	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:AirCompressor	AirCompressor		oeo:00010480	compressor	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:GenericConstraints	GenericConstraints	skos:relatedMatch	oeo:00000104	constraint	semapv:ManualMappingCuration	0.9	orcid:0009-0009-2960-3474	"OEO specifies ""within a calculation"" but CIM refers to operational constraints of a physical system."
+cim:SecurityConstraints	SecurityConstraints	skos:relatedMatch	oeo:00000104	constraint	semapv:ManualMappingCuration	0.9	orcid:0009-0009-2960-3474	"OEO specifies ""within a calculation"" but CIM refers to operational constraints of a physical system."
+cim:CustomerConsumer	CustomerConsumer		oeo:00000105	consumer	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:EnergyConsumer	EnergyConsumer		oeo:00000105	consumer	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:AuxiliaryAgreement	AuxiliaryAgreement		oeo:00140109	contract	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:CustomerAgreement	CustomerAgreement		oeo:00140109	contract	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExternalCustomerAgreement	ExternalCustomerAgreement		oeo:00140109	contract	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:MerchantAgreement	MerchantAgreement		oeo:00140109	contract	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:RightOfWay	RightOfWay		oeo:00140109	contract	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:AccumulatorLimit	AccumulatorLimit		stato:0000633	cutoff	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:AccumulatorLimitSet	AccumulatorLimitSet		stato:0000633	cutoff	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ActivePowerLimit	ActivePowerLimit		stato:0000633	cutoff	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:AnalogLimit	AnalogLimit		stato:0000633	cutoff	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:AnalogLimitSet	AnalogLimitSet		stato:0000633	cutoff	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ApparentPowerLimit	ApparentPowerLimit		stato:0000633	cutoff	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:BaseCaseConstraintLimit	BaseCaseConstraintLimit		stato:0000633	cutoff	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:BidPriceCap	BidPriceCap		stato:0000633	cutoff	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ContingencyConstraintLimit	ContingencyConstraintLimit		stato:0000633	cutoff	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:CurrentLimit	CurrentLimit		stato:0000633	cutoff	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:DefaultConstraintLimit	DefaultConstraintLimit		stato:0000633	cutoff	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:EnvironmentalDependentLimit	EnvironmentalDependentLimit		stato:0000633	cutoff	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Limit	Limit		stato:0000633	cutoff	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:LimitScalingLimit	LimitScalingLimit		stato:0000633	cutoff	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:LimitSet	LimitSet		stato:0000633	cutoff	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:MktAnalogLimit	MktAnalogLimit		stato:0000633	cutoff	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:MktAnalogLimitSet	MktAnalogLimitSet		stato:0000633	cutoff	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:MWLimitSchedule	MWLimitSchedule		stato:0000633	cutoff	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
 cim:OperationalLimit	OperationalLimit	skos:broadMatch	stato:0000633	cutoff	semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:OperationalLimit	OperationalLimit		stato:0000633	cutoff	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:OperationalLimitSet	OperationalLimitSet		stato:0000633	cutoff	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:RegulatingLimit	RegulatingLimit		stato:0000633	cutoff	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ScheduledActivePowerLimitValue	ScheduledActivePowerLimitValue		stato:0000633	cutoff	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ScheduledApparentPowerLimitValue	ScheduledApparentPowerLimitValue		stato:0000633	cutoff	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ScheduledCurrentLimitValue	ScheduledCurrentLimitValue		stato:0000633	cutoff	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ScheduledLimitValue	ScheduledLimitValue		stato:0000633	cutoff	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ScheduledVoltageLimitValue	ScheduledVoltageLimitValue		stato:0000633	cutoff	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:SeriesEquipmentDependentLimit	SeriesEquipmentDependentLimit		stato:0000633	cutoff	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:TemperatureDependentLimitPoint	TemperatureDependentLimitPoint		stato:0000633	cutoff	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ViolationLimit	ViolationLimit		stato:0000633	cutoff	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:VoltageLimit	VoltageLimit		stato:0000633	cutoff	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:DataSet	DataSet		iao:0000100	data set	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:LabTestDataSet	LabTestDataSet		iao:0000100	data set	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:MaintenanceDataSet	MaintenanceDataSet		iao:0000100	data set	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:TestDataSet	TestDataSet		iao:0000100	data set	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ASTMStandard	ASTMStandard		iao:0000033	directive information entity	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:DINStandard	DINStandard		iao:0000033	directive information entity	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:EPAStandard	EPAStandard		iao:0000033	directive information entity	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:IECStandard	IECStandard		iao:0000033	directive information entity	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:IEEEStandard	IEEEStandard		iao:0000033	directive information entity	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:RecloseSequence	RecloseSequence		iao:0000033	directive information entity	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Specification	Specification		iao:0000033	directive information entity	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:UKMinistryOfDefenceStandard	UKMinistryOfDefenceStandard		iao:0000033	directive information entity	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:WEPStandard	WEPStandard		iao:0000033	directive information entity	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ClearanceDocument	ClearanceDocument		iao:0000310	document	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Document	Document		iao:0000310	document	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ErpDocument	ErpDocument		iao:0000310	document	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:MarketDocument	MarketDocument		iao:0000310	document	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:SafetyDocument	SafetyDocument		iao:0000310	document	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Tariff	Tariff		iao:0000310	document	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Work	Work		iao:0000310	document	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:WorkDocument	WorkDocument		iao:0000310	document	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ACDCConverter	ACDCConverter		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ACDCConverterDCTerminal	ACDCConverterDCTerminal		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ACDCTerminal	ACDCTerminal		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ACLineSegmentPhase	ACLineSegmentPhase		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Breaker	Breaker		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:BusbarSection	BusbarSection		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Bushing	Bushing		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Circuit	Circuit		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Clamp	Clamp		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ConductingEquipment	ConductingEquipment		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Connector	Connector		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ContingencyEquipment	ContingencyEquipment		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:CurrentRelay	CurrentRelay		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:CurrentTransformer	CurrentTransformer		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:DCBaseTerminal	DCBaseTerminal		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:DCBreaker	DCBreaker		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:DCBusbar	DCBusbar		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:DCChopper	DCChopper		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:DCConductingEquipment	DCConductingEquipment		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:DCConverterUnit	DCConverterUnit		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:DCDisconnector	DCDisconnector		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:DCGround	DCGround		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:DCLineSegment	DCLineSegment		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:DCSeriesDevice	DCSeriesDevice		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:DCShunt	DCShunt		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:DCSwitch	DCSwitch		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:DCTerminal	DCTerminal		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:DCTopologicalIsland	DCTopologicalIsland		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:DCTopologicalNode	DCTopologicalNode		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:DisconnectingCircuitBreaker	DisconnectingCircuitBreaker		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Disconnector	Disconnector		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:DuctBank	DuctBank		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:EarthFaultCompensator	EarthFaultCompensator		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Equipment	Equipment		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcAC1A	ExcAC1A		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcAC2A	ExcAC2A		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcAC3A	ExcAC3A		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcAC4A	ExcAC4A		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcAC5A	ExcAC5A		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcAC6A	ExcAC6A		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcAC8B	ExcAC8B		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcANS	ExcANS		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcAVR1	ExcAVR1		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcAVR2	ExcAVR2		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcAVR3	ExcAVR3		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcAVR4	ExcAVR4		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcAVR5	ExcAVR5		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcAVR7	ExcAVR7		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcBBC	ExcBBC		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcCZ	ExcCZ		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcDC1A	ExcDC1A		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcDC2A	ExcDC2A		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcDC3A	ExcDC3A		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcDC3A1	ExcDC3A1		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcELIN1	ExcELIN1		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcELIN2	ExcELIN2		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcHU	ExcHU		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcIEEEAC1A	ExcIEEEAC1A		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcIEEEAC2A	ExcIEEEAC2A		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcIEEEAC3A	ExcIEEEAC3A		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcIEEEAC4A	ExcIEEEAC4A		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcIEEEAC5A	ExcIEEEAC5A		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcIEEEAC6A	ExcIEEEAC6A		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcIEEEAC7B	ExcIEEEAC7B		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcIEEEAC8B	ExcIEEEAC8B		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcIEEEDC1A	ExcIEEEDC1A		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcIEEEDC2A	ExcIEEEDC2A		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcIEEEDC3A	ExcIEEEDC3A		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcIEEEDC4B	ExcIEEEDC4B		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcIEEEST1A	ExcIEEEST1A		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcIEEEST2A	ExcIEEEST2A		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcIEEEST3A	ExcIEEEST3A		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcIEEEST4B	ExcIEEEST4B		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcIEEEST5B	ExcIEEEST5B		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcIEEEST6B	ExcIEEEST6B		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcIEEEST7B	ExcIEEEST7B		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcNI	ExcNI		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcOEX3T	ExcOEX3T		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcPIC	ExcPIC		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcREXS	ExcREXS		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcRQB	ExcRQB		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcSCRX	ExcSCRX		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcSEXS	ExcSEXS		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcSK	ExcSK		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcST1A	ExcST1A		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcST2A	ExcST2A		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcST3A	ExcST3A		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcST4B	ExcST4B		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcST6B	ExcST6B		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ExcST7B	ExcST7B		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Fuse	Fuse		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:GroundDisconnector	GroundDisconnector		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:GroundingImpedance	GroundingImpedance		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Jumper	Jumper		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Meter	Meter		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Pss1	Pss1		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Pss1A	Pss1A		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Pss2B	Pss2B		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Pss2ST	Pss2ST		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Pss5	Pss5		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:PssELIN2	PssELIN2		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:PssIEEE1A	PssIEEE1A		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:PssIEEE2B	PssIEEE2B		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:PssIEEE3B	PssIEEE3B		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:PssIEEE4B	PssIEEE4B		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:PssPTIST1	PssPTIST1		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:PssPTIST3	PssPTIST3		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:PssRQB	PssRQB		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:PssSB4	PssSB4		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:PssSH	PssSH		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:PssSK	PssSK		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:PssSTAB2A	PssSTAB2A		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:PssWECC	PssWECC		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Recloser	Recloser		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Sectionaliser	Sectionaliser		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:SeriesCompensator	SeriesCompensator		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ShuntCompensator	ShuntCompensator		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:UnderexcLim2Simplified	UnderexcLim2Simplified		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:UnderexcLimIEEE1	UnderexcLimIEEE1		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:UnderexcLimIEEE2	UnderexcLimIEEE2		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:UnderexcLimX1	UnderexcLimX1		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:UnderexcLimX2	UnderexcLimX2		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:WaveTrap	WaveTrap		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:WireSegment	WireSegment		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:WireSegmentPhase	WireSegmentPhase		oeo:00000144	electricity grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Tower	Tower		oeo:00020459	electricity pylon	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ElectronicAddress	ElectronicAddress		oeo:00140171	email address	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:UnplannedOutage	UnplannedOutage		oeo:00020105	forced outage	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Forecast	Forecast		oeo:00010411	forecast	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:InflowForecast	InflowForecast		oeo:00010411	forecast	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:FossilFuel	FossilFuel		oeo:00000014	fossil combustion fuel	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:CombustionTurbine	CombustionTurbine		oeo:00000185	gas turbine	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:GeneratingUnit	GeneratingUnit		oeo:00000188	generator	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:EnergyComponent	EnergyComponent			grid component	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Conductor	Conductor			"grid component, grid component link, grid node?"	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:DCNode	DCNode		oeo:00000296	grid node	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:DCLine	DCLine		oeo:00000126	HVDC-line	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:HydroPowerPlant	HydroPowerPlant		oeo:00010086	hydro power plant	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:HydroGeneratingUnit	HydroGeneratingUnit		oeo:00010085	hydro power unit	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:AsynchronousMachine	AsynchronousMachine		oeo:00280016	induction generator	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Transaction	Transaction		iao:0000030	information content entity	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:AssemblyDescription	AssemblyDescription			information content entity (or something more specific?)	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:BreakerInfo	BreakerInfo			information content entity (or subclass)	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:BusbarSectionInfo	BusbarSectionInfo			information content entity (or subclass)	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:BushingInfo	BushingInfo			information content entity (or subclass)	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:CableInfo	CableInfo			information content entity (or subclass)	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:CIGREStandard	CIGREStandard			information content entity (or subclass)	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:CompositeSwitchInfo	CompositeSwitchInfo			information content entity (or subclass)	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ConcentricNeutralCableInfo	ConcentricNeutralCableInfo			information content entity (or subclass)	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:BankAccountDetail	BankAccountDetail			information content entity?	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:AccessPermit	AccessPermit	skos:broadMatch	oeo:00020015	licence	semapv:ManualMappingCuration	0.9	orcid:0009-0009-2960-3474	
+cim:AnalogValue	AnalogValue	skos:broadMatch	iao:0000109	measurement datum	semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:Measurement	Measurement	skos:broadMatch	iao:0000109	measurement datum	semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:MeterReading	MeterReading	skos:broadMatch	iao:0000109	measurement datum	semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:Observation	Observation	skos:broadMatch	iao:0000109	measurement datum	semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:Reading	Reading	skos:broadMatch	iao:0000109	measurement datum	semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:EnvironmentalMonitoringStation	EnvironmentalMonitoringStation	skos:broadMatch	oeo:00010259	measurement device	semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:Meter	Meter	skos:broadMatch	oeo:00010259	measurement device	semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:Sensor	Sensor	skos:broadMatch	oeo:00010259	measurement device	semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:WeatherStation	WeatherStation	skos:broadMatch	oeo:00010259	measurement device	semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:NuclearGeneratingUnit	NuclearGeneratingUnit		oeo:00000029	nuclear power unit	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Crew	Crew		bfo:0000027	object aggregate	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Series	Series		bfo:0000027	object aggregate	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:AssemblyManifest	AssemblyManifest			object aggregate	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:AssetContainer	AssetContainer			object aggregate	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:AssetGroup	AssetGroup			object aggregate	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Bay	Bay			object aggregate	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:AssetUser	AssetUser		oeo:00030022	organisation	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Bank	Bank		oeo:00030022	organisation	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:EnvironmentalDataProvider	EnvironmentalDataProvider		oeo:00030022	organisation	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Organisation	Organisation		oeo:00030022	organisation	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ParentOrganization	ParentOrganization		oeo:00030022	organisation	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Maintainer	Maintainer		oeo:00030022	organisation	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Contingency	Contingency		oeo:00020104	outage	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Outage	Outage		oeo:00020104	outage	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:CrewMember	CrewMember		oeo:00000323	person	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:FieldSafetySupervisor	FieldSafetySupervisor		oeo:00000323	person	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:AssetOwner	AssetOwner			person or organization	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Customer	Customer			person or organization	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ControlAreaOperator	ControlAreaOperator			person or organization?	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:WorkRequest	WorkRequest		iao:0000104	plan specification	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:OutagePlan	OutagePlan		iao:0000104	plan specification	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:PlannedOutage	PlannedOutage		oeo:00020106	planned outage	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Structure	Structure		oeo:00020457	power line support structure	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Plant	Plant		oeo:00000031	power plant	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Project	Project		oeo:00000340	project	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ProjectAlternative	ProjectAlternative		oeo:00000340	project	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Ratio	Ratio		uo:0010006	ratio	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Reservoir	Reservoir		oeo:00010084	reservoir	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Role	Role		bfo:0000023	role	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Location	Location		bfo:0000029	site	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:ServiceLocation	ServiceLocation		bfo:0000029	site	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:WorkLocation	WorkLocation			site or spatial region?	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Zone	Zone			"site, or spatial region?"	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:SolarGeneratingUnit	SolarGeneratingUnit		oeo:00000387	solar thermal collector	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Editor	Editor		iao:0000117	term editor	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:TimeSeries	TimeSeries		oeo:00030034	time series	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:AvailablityPlan	AvailablityPlan		oeo:00030035	time span	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:BidPriceSchedule	BidPriceSchedule		oeo:00030035	time span	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:CashierShift	CashierShift		oeo:00030035	time span	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:CurrentEmergencyScheduledInterchange	CurrentEmergencyScheduledInterchange		oeo:00030035	time span	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:DateInterval	DateInterval		oeo:00030035	time span	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:DateTimeInterval	DateTimeInterval		oeo:00030035	time span	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Period	Period		oeo:00030035	time span	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Shift	Shift		oeo:00030035	time span	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:WorkTimeSchedule	WorkTimeSchedule		oeo:00030035	time span	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:MonthDayInterval	MonthDayInterval		oeo:00030035	time span	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:TimeInterval	TimeInterval		oeo:00030035	time span	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:TimeTariffInterval	TimeTariffInterval		oeo:00030035	time span	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:DateAndOrTime	DateAndOrTime		oeo:00140043	time stamp	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:DeploymentDate	DeploymentDate		oeo:00140043	time stamp	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:EstimatedRestorationTime	EstimatedRestorationTime		oeo:00140043	time stamp	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:TimePoint	TimePoint		oeo:00140043	time stamp	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:InUseDate	InUseDate		oeo:00140043	time stamp	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:LifecycleDate	LifecycleDate		oeo:00140043	time stamp	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Trade	Trade		oeo:00010082	trade	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:DuctBank	DuctBank		oeo:00440002	underground power line	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Unit	Unit		oeo:00010489	unit	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Pole	Pole		oeo:00020460	utility pole	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Vehicle	Vehicle		oeo:00010023	vehicle	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Version	Version		iao:0000129	version number	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Agreement	Agreement		oeo:00010457	voluntary agreement	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:HydroTurbine	HydroTurbine		oeo:00000442	water turbine	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:WindGeneratingUnit	WindGeneratingUnit		oeo:00000447	wind farm	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:WindGeneratingUnit	WindGeneratingUnit		oeo:00000448	wind rotor	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:WindGenTurbineType1aIEC	WindGenTurbineType1aIEC	skos:broadMatch	oeo:00000448	wind rotor	semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:WindGenTurbineType1bIEC	WindGenTurbineType1bIEC	skos:broadMatch	oeo:00000448	wind rotor	semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:WindGenTurbineType2IEC	WindGenTurbineType2IEC	skos:broadMatch	oeo:00000448	wind rotor	semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:WindGenType3aIEC	WindGenType3aIEC	skos:broadMatch	oeo:00000448	wind rotor	semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:WindGenType3bIEC	WindGenType3bIEC	skos:broadMatch	oeo:00000448	wind rotor	semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:WindGenType3IEC	WindGenType3IEC	skos:broadMatch	oeo:00000448	wind rotor	semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:WindGenType4IEC	WindGenType4IEC	skos:broadMatch	oeo:00000448	wind rotor	semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:Analog	Analog	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:Auction	Auction	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:AuxiliaryAccount	AuxiliaryAccount	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:BankAccount	BankAccount	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:Capability	Capability	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:Card	Card	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:Cashier	Cashier	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:CloudCondition	CloudCondition	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:CoordinateSystem	CoordinateSystem	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:Craft	Craft	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:Curve	Curve	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:CustomerAccount	CustomerAccount	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:Cyclone	Cyclone	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:DayType	DayType	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:Design	Design	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	"OEO ""study design"" refers to the design of research studies. CIM ""design"" refers to something for construction/engineering. These terms therefore cannot be mapped to each other."
+cim:Diagram	Diagram	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:Domain	Domain	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:Earthquake	Earthquake	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:EmissionAccount	EmissionAccount	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:ErpBankAccount	ErpBankAccount	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:Fire	Fire	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:Flood	Flood	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:Ground	Ground	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:Hazard	Hazard	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:Hurricane	Hurricane	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:InadvertentAccount	InadvertentAccount	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:Landslide	Landslide	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:LightningStrike	LightningStrike	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:MagneticStorm	MagneticStorm	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:MerchantAccount	MerchantAccount	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:Season	Season	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:TelephoneNumber	TelephoneNumber	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
 cim:Tornado	Tornado	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:TropicalCycloneAustralia	TropicalCycloneAustralia	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:Tsunami	Tsunami	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:VolcanicAshCloud	VolcanicAshCloud	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:Whirlpool	Whirlpool	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:ActivePower	ActivePower	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:ActivePowerChangeRate	ActivePowerChangeRate	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:ActivePowerPerCurrentFlow	ActivePowerPerCurrentFlow	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:ActivePowerPerFrequency	ActivePowerPerFrequency	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:Admittance	Admittance	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:ApparentPower	ApparentPower	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:Bearing	Bearing	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:Capacitance	Capacitance	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:CapacitancePerLength	CapacitancePerLength	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:Classification	Classification	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:Conductance	Conductance	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:ConductancePerLength	ConductancePerLength	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:CostPerHeatUnit	CostPerHeatUnit	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:CostPerVolume	CostPerVolume	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:CostRate	CostRate	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:Damping	Damping	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:Displacement	Displacement	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:Impedance	Impedance	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:Inductance	Inductance	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:InductancePerLength	InductancePerLength	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:KiloActivePower	KiloActivePower	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:MagneticField	MagneticField	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:PU	PU	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:Reactance	Reactance	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:ReactancePerLength	ReactancePerLength	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:ReactivePower	ReactivePower	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:RealEnergy	RealEnergy	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:Resistance	Resistance	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:ResistancePerLength	ResistancePerLength	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:RotationSpeed	RotationSpeed	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:Susceptance	Susceptance	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:SusceptancePerLength	SusceptancePerLength	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:Voltage	Voltage	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:VoltagePerReactivePower	VoltagePerReactivePower	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:WaterLevel	WaterLevel	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:Volume	Volume	skos:exactMatch	oeo:00320057	volume	semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:VolumeFlowRate	VolumeFlowRate	skos:exactMatch	oeo:00090000	volumetric flow rate value	semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:Emission	Emission	skos:exactMatch	oeo:00010079	emission value	semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:Length	Length	skos:exactMatch	oeo:00140001	length value	semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:Money	Money	skos:exactMatch	oeo:00040003	monetary value	semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:Hours	Hours	skos:relatedMatch	uo:0000032	hour	semapv:ManualMappingCuration	0.9	orcid:0009-0009-2960-3474	OEO describes the unit. CIM describes the quantity value measured in this unit.
+cim:Hours	Hours	skos:relatedMatch	oeo:00030035	time span	semapv:ManualMappingCuration	0.8	orcid:0009-0009-2960-3474	cim:Hours describes a unit that may be used to measure oeo:00030035 (time span).
+cim:Mass	Mass	skos:relatedMatch	uo:0000002	mass unit	semapv:ManualMappingCuration	0.9	orcid:0009-0009-2960-3474	OEO describes the unit. CIM describes the quantity value measured in this unit.
+cim:Minutes	Minutes	skos:relatedMatch	uo:0000031	minute	semapv:ManualMappingCuration	0.9	orcid:0009-0009-2960-3474	OEO describes the unit. CIM describes the quantity value measured in this unit.
+cim:Minutes	Minutes	skos:relatedMatch	oeo:00030035	time span	semapv:ManualMappingCuration	0.8	orcid:0009-0009-2960-3474	cim:Minutes describes a unit that may be used to measure oeo:00030035 (time span).
+cim:AngleDegrees	AngleDegrees	skos:relatedMatch	uo:0000185	degree	semapv:ManualMappingCuration	0.9	orcid:0009-0009-2960-3474	OEO describes the unit. CIM describes the quantity value measured in this unit.
+cim:AngleRadians	AngleRadians	skos:relatedMatch	uo:0000123	radian	semapv:ManualMappingCuration	0.9	orcid:0009-0009-2960-3474	"OEO describes the unit. CIM describes the quantity value measured in this unit, and specifies that it's for phases."
+cim:Particulate Density	ParticulateDensity	skos:relatedMatch	uo:0000182	density unit	semapv:ManualMappingCuration	0.9	orcid:0009-0009-2960-3474	"OEO describes the unit. CIM describes the quantity value measured in this unit, and also specifies that the measurement applies to particulate matter."
+cim:Particulate Density	ParticulateDensity	skos:relatedMatch	oeo:00000318	particulate matter	semapv:ManualMappingCuration	0.8	orcid:0009-0009-2960-3474	cim:ParticulateDensity is a measurement that applies to oeo:00000318 (particulate matter).
+cim:CurrentFlow	CurrentFlow	skos:relatedMatch	uo:0000004	electric current unit	semapv:ManualMappingCuration	0.8	orcid:0009-0009-2960-3474	OEO describes the unit used to measure current. CIM describes current itself.
+cim:Seconds	Seconds	skos:relatedMatch	uo:0000010	second	semapv:ManualMappingCuration	0.9	orcid:0009-0009-2960-3474	OEO describes the unit. CIM describes the quantity value measured in this unit.
+cim:Seconds	Seconds	skos:relatedMatch	oeo:00030035	time span	semapv:ManualMappingCuration	0.8	orcid:0009-0009-2960-3474	cim:Seconds describes a unit that may be used to measure oeo:00030035 (time span).
+cim:Speed	Speed	skos:relatedMatch	uo:0000060	speed/velocity unit	semapv:ManualMappingCuration	0.9	orcid:0009-0009-2960-3474	OEO describes the unit. CIM describes the quantity value measured in this unit.
+cim:Temperature	Temperature	skos:relatedMatch	oeo:00010453	temperature	semapv:ManualMappingCuration	0.9	orcid:0009-0009-2960-3474	OEO describes the unit. CIM describes the quantity value measured in this unit.
+cim:Temperature	Temperature	skos:relatedMatch	uo:0000027	degree Celsius	semapv:ManualMappingCuration	0.9	orcid:0009-0009-2960-3474	OEO describes the unit. CIM describes the quantity value measured in this unit.
+cim:CostPerEnergyUnit	CostPerEnergyUnit	skos:closeMatch	oeo:00330002	electricity cost	semapv:ManualMappingCuration	0.7	orcid:0009-0009-2960-3474	
+cim:CostPerEnergyUnit	CostPerEnergyUnit	skos:exactMatch	oeo:00020117	electricity price	semapv:ManualMappingCuration	0.7	orcid:0009-0009-2960-3474	
+cim:Frequency	Frequency	skos:relatedMatch	uo:0000105	frequency unit	semapv:ManualMappingCuration	0.9	orcid:0009-0009-2960-3474	OEO describes the unit. CIM describes the quantity value measured in this unit.
+cim:Pressure	Pressure	skos:relatedMatch	uo:0000110	pascal	semapv:ManualMappingCuration	0.9	orcid:0009-0009-2960-3474	OEO describes the unit. CIM describes the quantity value measured in this unit.
+cim:Pressure	Pressure	skos:exactMatch	oeo:00010454	pressure	semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:HeatRate	HeatRate	skos:relatedMatch	oeo:00010248	heat gain process	semapv:ManualMappingCuration	0.7	orcid:0009-0009-2960-3474	cim:HeatRate describes the heat generated by oeo:00010248 (heat gain process)
+cim:PerCent	PerCent	skos:relatedMatch	uo:0000187	percent	semapv:ManualMappingCuration	0.9	orcid:0009-0009-2960-3474	OEO describes the unit. CIM describes the quantity value measured in this unit. CIM also doesn't specify a base; OEO specifies base 100.
+
