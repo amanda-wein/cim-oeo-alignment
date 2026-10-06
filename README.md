@@ -43,6 +43,8 @@ The alignment is being documented according to [SSSOM](https://mapping-commons.g
 ## Notes on SSSOM Usage
 
 - For this alignment, **CIM** is used as the *subject*, and **OEO** is used as the *object*.
+   - skos:broadMatch indicates that the OEO term is broader than the CIM term.
+   - skos:narrowMatch indicates that the OEO term is narrower than the CIM term.
 - Abbreviations for the CURIEs in the mapping set are all listed under *curie_map* in the YAML header file.
 - SSSOM **cannot** model complex mappings where entities are mapped to multiple terms (e.g. "A is a close match to 'B with condition C'").
 - It is allowed to create multiple mappings for a single subject and a single predicate (e.g. "A is a related match to B" and "A is a related match to C").
