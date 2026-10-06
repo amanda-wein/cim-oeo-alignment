@@ -2,8 +2,8 @@
 Files for aligning the terms of the Open Energy Ontology (OEO) with the terms of the Common Information Model (CIM). This ontology alignment is created by NFDI4Energy.
 
 The alignment is being documented according to [SSSOM](https://mapping-commons.github.io/sssom/dev/) (Simple Standard for Sharing Ontology Mappings). The alignment consists of a set of two files:
-- sssom-cim-oeo-header.yml: a YAML file containing metadata for the alignment/mapping set.
-- cim-oeo.tsv: a tsv file containing the alignments/mappings themselves.
+- `sssom-cim-oeo-header.yml`: a YAML file containing metadata for the alignment/mapping set.
+- `cim-oeo.tsv`: a tsv file containing the alignments/mappings themselves.
 
 ## Notes on Terminology
 
