@@ -15,40 +15,41 @@ The alignment is being documented according to [SSSOM](https://mapping-commons.g
 
 1. **subject_id**
    - The CURIE for the source of the mapping.
+   - For this alignment, CIM is used as the subject of each mapping.
 2. **subject_label**
    - A human-readable label for the source of the mapping.
-   - This should always match the "rdfs:label" annotation of the term.
+   - This should always match the `rdfs:label` annotation of the CIM term.
 3. **predicate_id**
    - The relation between the subject/source and the object/target.
+   - `skos:broadMatch` indicates that the OEO term is broader than the CIM term.
+   - `skos:narrowMatch` indicates that the OEO term is narrower than the CIM term.
    - Refer to [this page](https://mapping-commons.github.io/sssom/dev/spec-model/#allowed-and-common-mapping-predicates) for a list of common predicates and basic usage guidelines.
    - Refer to [this page](https://mapping-commons.github.io/sssom/dev/mapping-predicates/) for more detailed usage guidance (e.g. differences between "related", "close", "exact", "narrow" and "broad" in SKOS terminology).
 4. **object_id**
    - The CURIE for the target of the mapping.
+   - For this alignment, the OEO is used as the object of each mapping.
 5. **object_label**
    - A human-readable label for the target of the mapping.
-   - This should always match the "rdfs:label" annotation of the term.
+   - This should always match the `rdfs:label` annotation of the OEO term.
 6. **mapping_justification**
    - The method used to obtain the mapping.
    - Refer to [this page](https://mapping-commons.github.io/sssom/dev/mapping-justifications/) for an overview of allowable entries for this field.
-   - Use "semapv:ManualMappingCuration" if the mapping was created by a human based on their domain knowledge (this will likely be the case for most, if not all, mappings in this partiuclar mapping set).
+   - Use `semapv:ManualMappingCuration` if the mapping was created by a human based on their domain knowledge (this will likely be the case for most, if not all, mappings in this partiuclar mapping set).
 7. **confidence**
    - A number between 0 and 1 indicating the mapping author's confidence in the accuracy of the mapping.
    - 0 indicates 0%/no confidence. 1 indicates 100%/full confidence.
 8. **author_id**
    - A CURIE referencing the person who created the mapping.
-   - ORCIDs are preferred (e.g. orcid:0009-0009-2960-3474). 
+   - ORCIDs are preferred (e.g. `orcid:0009-0009-2960-3474`). 
 9. **comment**
    - Any additional comments regarding the mapping.
 
 ## Notes on SSSOM Usage
 
-- For this alignment, **CIM** is used as the *subject*, and **OEO** is used as the *object*.
-   - skos:broadMatch indicates that the OEO term is broader than the CIM term.
-   - skos:narrowMatch indicates that the OEO term is narrower than the CIM term.
-- Abbreviations for the CURIEs in the mapping set are all listed under *curie_map* in the YAML header file.
+- Abbreviations for the CURIEs in the mapping set are all listed under `curie_map` in the YAML header file.
 - SSSOM **cannot** model complex mappings where entities are mapped to multiple terms (e.g. "A is a close match to 'B with condition C'").
 - It is allowed to create multiple mappings for a single subject and a single predicate (e.g. "A is a related match to B" and "A is a related match to C").
-- If no suitable entity is found in the OEO to map to a given CIM term, or in CIM to map to a given OEO term, create a mapping with the value "sssom:NoTermFound" as demonstrated here:
+- If no suitable entity is found in the OEO to map to a given CIM term, or in CIM to map to a given OEO term, create a mapping with the value `sssom:NoTermFound` as demonstrated here:
   
     | subject_id        | subject_label | predicate_id    | object_id         | object_label |
     |-------------------|---------------|-----------------|-------------------|--------------|
