@@ -410,3 +410,122 @@ cim:Voltage	Voltage	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCurat
 cim:VoltagePerReactivePower	VoltagePerReactivePower	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
 cim:WaterLevel	WaterLevel	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
 cim:Whirlpool	Whirlpool	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:ActionRequest	ActionRequest		oeo:00040006	request	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:BidPriceSchedule	BidPriceSchedule		oeo:00030035	time span	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:Bay	Bay			object aggregate	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:BidSet	BidSet			object aggregate	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:AccumulatorReset	AccumulatorReset			action specification	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:AdjacentCASet	AdjacentCASet			object aggregate	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:AccountNotification	AccountNotification	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474	
+cim:Assignment	Assignment			directive information entity	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:AcceptanceTest	AcceptanceTest							
+cim:AccountingUnit	AccountingUnit							
+cim:AccountMovement	AccountMovement							
+cim:Accumulator	Accumulator							
+cim:AccumulatorValue	AccumulatorValue							
+cim:AceTariffType	AceTariffType							
+cim:ActivityRecord	ActivityRecord							
+cim:AggregatedPnode	AggregatedPnode							
+cim:AggregateNode	AggregateNode							
+cim:AggregateScore	AggregateScore							
+cim:AlertTypeList	AlertTypeList							
+cim:AllocationResult	AllocationResult							
+cim:AllocationResultValues	AllocationResultValues							
+cim:AlternateModel	AlternateModel							
+cim:AlternateModelGroup	AlternateModelGroup							
+cim:AltGeneratingUnitMeas	AltGeneratingUnitMeas							
+cim:AltTieMeas	AltTieMeas							
+cim:AnalogControl	AnalogControl							
+cim:AnalogMeasurementValueQuality	AnalogMeasurementValueQuality							
+cim:Analytic	Analytic							
+cim:AnalyticScore	AnalyticScore							
+cim:AncillaryServiceClearing	AncillaryServiceClearing							
+cim:AnnotatedProjectDependency	AnnotatedProjectDependency							
+cim:Appointment	Appointment							
+cim:Approver	Approver							
+cim:AreaLoadBid	AreaLoadBid							
+cim:AreaLoadCurve	AreaLoadCurve							
+cim:AreaReserveSpec	AreaReserveSpec							
+cim:ASRequirements	ASRequirements							
+cim:AssetAnalog	AssetAnalog							
+cim:AssetDeployment	AssetDeployment							
+cim:AssetDiscrete	AssetDiscrete							
+cim:AssetFunction	AssetFunction							
+cim:AssetHealthEvent	AssetHealthEvent							
+cim:AssetInfo	AssetInfo							
+cim:AssetLocationHazard	AssetLocationHazard							
+cim:AssetModelCatalogue	AssetModelCatalogue							
+cim:AssetModelCatalogueItem	AssetModelCatalogueItem							
+cim:AssetOrganisationRole	AssetOrganisationRole							
+cim:AssetPropertyCurve	AssetPropertyCurve							
+cim:AssetStringMeasurement	AssetStringMeasurement							
+cim:AssetTemperaturePressureAnalog	AssetTemperaturePressureAnalog							
+cim:AssetTestLab	AssetTestLab							
+cim:AssetTestSampleTaker	AssetTestSampleTaker							
+cim:AsynchronousMachineDynamics	AsynchronousMachineDynamics							
+cim:AsynchronousMachineEquivalentCircuit	AsynchronousMachineEquivalentCircuit							
+cim:AsynchronousMachineTimeConstantReactance	AsynchronousMachineTimeConstantReactance							
+cim:AsynchronousMachineUserDefined	AsynchronousMachineUserDefined							
+cim:AtmosphericAnalog	AtmosphericAnalog							
+cim:AttributeInstanceComponent	AttributeInstanceComponent							
+cim:AttributeProperty	AttributeProperty							
+cim:AuxiliaryCost	AuxiliaryCost							
+cim:AuxiliaryEquipment	AuxiliaryEquipment							
+cim:AuxiliaryObject	AuxiliaryObject							
+cim:AuxiliaryValues	AuxiliaryValues							
+cim:BaseFrequency	BaseFrequency							
+cim:BasePower	BasePower							
+cim:BaseReading	BaseReading							
+cim:BaseVoltage	BaseVoltage							
+cim:BaseWork	BaseWork							
+cim:BasicIntervalSchedule	BasicIntervalSchedule							
+cim:BidDistributionFactor	BidDistributionFactor							
+cim:BidError	BidError							
+cim:BidHourlyProductSchedule	BidHourlyProductSchedule							
+cim:BidHourlySchedule	BidHourlySchedule							
+cim:BidPriceCurve	BidPriceCurve							
+cim:BidSelfSched	BidSelfSched							
+cim:BidTimeSeries	BidTimeSeries							
+cim:BilateralExchangeActor	BilateralExchangeActor							
+cim:BilateralExchangeAgreement	BilateralExchangeAgreement							
+cim:BilateralTransaction	BilateralTransaction							
+cim:BillDeterminant	BillDeterminant							
+cim:BlockDispatchComponent	BlockDispatchComponent							
+cim:BlockDispatchInstruction	BlockDispatchInstruction							
+cim:BlockDispatchOrder	BlockDispatchOrder							
+cim:BlockingFunction	BlockingFunction							
+cim:BranchEndFlow	BranchEndFlow							
+cim:BranchGroup	BranchGroup			"object aggregate, grid component"	semapv:ManualMappingCuration		orcid:0009-0009-2960-3474	
+cim:BranchGroupTerminal	BranchGroupTerminal							
+cim:BushingInsulationPF	BushingInsulationPF							
+cim:BusinessCase	BusinessCase							
+cim:BusinessRole	BusinessRole							
+cim:BusNameMarker	BusNameMarker							
+cim:BWRSteamSupply	BWRSteamSupply							
+cim:Cabinet	Cabinet							
+cim:CAESPlant	CAESPlant							
+cim:CalculationMethodHierarchy	CalculationMethodHierarchy							
+cim:CalculationMethodOrder	CalculationMethodOrder							
+cim:CatalogAssetType	CatalogAssetType							
+cim:CCAinverter	CCAinverter							
+cim:CCArectifierControl	CCArectifierControl							
+cim:ChangeSet	ChangeSet							
+cim:ChangeSetMember	ChangeSetMember							
+cim:Channel	Channel							
+cim:Charge	Charge							
+cim:ChargeComponent	ChargeComponent							
+cim:ChargeGroup	ChargeGroup							
+cim:ChargeProfile	ChargeProfile							
+cim:ChargeProfileData	ChargeProfileData							
+cim:ChargeType	ChargeType							
+cim:Cheque	Cheque							
+cim:ClampAction	ClampAction							
+cim:ClassificationCondition	ClassificationCondition							
+cim:ClearanceAction	ClearanceAction							
+cim:CnodeDistributionFactor	CnodeDistributionFactor							
+cim:CogenerationPlant	CogenerationPlant							
+cim:CombinedCycleConfiguration	CombinedCycleConfiguration							
+cim:CombinedCycleConfigurationMember	CombinedCycleConfigurationMember							
+cim:CombinedCycleLogicalConfiguration	CombinedCycleLogicalConfiguration							
+cim:CombinedCyclePlant	CombinedCyclePlant							
+cim:CombinedCycleTransitionState	CombinedCycleTransitionState							
