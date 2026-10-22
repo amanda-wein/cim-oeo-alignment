@@ -5,6 +5,12 @@ The alignment is being documented according to [SSSOM](https://mapping-commons.g
 - `sssom-cim-oeo-header.yml`: a YAML file containing metadata for the alignment/mapping set.
 - `cim-oeo.tsv`: a tsv file containing the alignments/mappings themselves.
 
+## Terminology Sources
+
+The vocabulary terms and definitions used for this alignment can be found here:
+- OEO: <https://openenergyplatform.org/viewer/oeo/>
+- CIM: <https://modellen.netbeheernederland.nl/tc57cim/cim17/schema/index.html>
+
 ## Notes on Terminology
 
 - mapping vs alignment: We prefer the term *alignment* for the artifacts in this repository, rather than *mapping*. However, as SSSOM uses the term *mapping* in its documentation, we use both interchangeably in this repository in an attempt to reduce confusion when referencing the instructions in the SSSOM documentation.
