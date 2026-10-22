@@ -53,7 +53,7 @@ The vocabulary terms and definitions used for this alignment can be found here:
    - ORCIDs are preferred (e.g. `orcid:0009-0009-2960-3474`).
    - Separate multiple reviewers using `|` (e.g. `orcid:reviewer1|orcid:reviewer2`).
 10. **comment**
-   - Any additional comments regarding the mapping.
+      - Any additional comments regarding the mapping.
 
 ## Notes on SSSOM Usage
 
