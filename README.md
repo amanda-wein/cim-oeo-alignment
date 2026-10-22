@@ -45,9 +45,14 @@ The vocabulary terms and definitions used for this alignment can be found here:
    - A number between 0 and 1 indicating the mapping author's confidence in the accuracy of the mapping.
    - 0 indicates 0%/no confidence. 1 indicates 100%/full confidence.
 8. **author_id**
-   - A CURIE referencing the person who created the mapping.
-   - ORCIDs are preferred (e.g. `orcid:0009-0009-2960-3474`). 
-9. **comment**
+   - A CURIE referencing the person/people who created the mapping.
+   - ORCIDs are preferred (e.g. `orcid:0009-0009-2960-3474`).
+   - Separate multiple authors using `|` (e.g. `orcid:author1|orcid:author2`).
+9. **reviewer_id**
+   - A CURIE referencing the person/people who have reviewed the mapping for accuracy.
+   - ORCIDs are preferred (e.g. `orcid:0009-0009-2960-3474`).
+   - Separate multiple reviewers using `|` (e.g. `orcid:reviewer1|orcid:reviewer2`).
+10. **comment**
    - Any additional comments regarding the mapping.
 
 ## Notes on SSSOM Usage
