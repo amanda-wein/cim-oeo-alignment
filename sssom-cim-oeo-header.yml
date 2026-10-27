@@ -9,6 +9,7 @@
 #   stato: http://purl.obolibrary.org/obo/STATO_
 #   orcid: https://orcid.org/
 #   uo: http://purl.obolibrary.org/obo/UO_
+#   meno: https://raw.githubusercontent.com/stap-m/midlevel-energy-ontology/main/ontology/src/midlevel-energy.owl/MENO_
 # license: todo
 # mapping_set_id: todo
 # mapping_set_description: "This manually curated mapping set aligns the Common Information Model (CIM) with the Open Energy Ontology (OEO). It was created by the NFDI4Energy consortium (https://nfdi4energy.uol.de/)."
