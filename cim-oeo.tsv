@@ -66,7 +66,7 @@ cim:AssetAnalog	AssetAnalog	skos:exactMatch	sssom:NoTermFound		semapv:ManualMapp
 cim:AssetContainer	AssetContainer	skos:broadMatch	bfo:0000027	object aggregate	semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474		
 cim:AssetDeployment	AssetDeployment	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474		
 cim:AssetDiscrete	AssetDiscrete	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474		
-cim:AssetFunction	AssetFunction								
+cim:AssetFunction	AssetFunction	skos:broadMatch	bfo:0000034	function	semapv:ManualMappingCuration	0.9	orcid:0009-0002-9374-1029		cim describes function performed by an asset. BFO gives example of function performed by hammer, pacemaker etc
 cim:AssetGroup	AssetGroup	skos:broadMatch	bfo:0000027	object aggregate	semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474		
 cim:AssetHealthEvent	AssetHealthEvent								
 cim:AssetInfo	AssetInfo	skos:broadMatch	iao:0000030	information content entity	semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474		
@@ -193,7 +193,7 @@ cim:CombinedCycleLogicalConfiguration	CombinedCycleLogicalConfiguration
 cim:CombinedCyclePlant	CombinedCyclePlant	skos:narrowMatch	oeo:00020463	combined cycle gas power plant	semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474		OEO specifies gas-powered; CIM does not specify a type of fuel.
 cim:CombinedCycleTransitionState	CombinedCycleTransitionState								
 cim:CombustionTurbine	CombustionTurbine	skos:exactMatch	oeo:00000185	gas turbine	semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474		
-cim:ComFunction	ComFunction								
+cim:ComFunction	ComFunction	skos:broadMatch	bfo:0000034	function	semapv:ManualMappingCuration	0.7	orcid:0009-0002-9374-1029		CIM describes ComFunction as function performed by communication devices as end device
 cim:Command	Command								
 cim:ComMedia	ComMedia								
 cim:CommitmentClearing	CommitmentClearing								
@@ -219,7 +219,7 @@ cim:ConformLoadGroup	ConformLoadGroup
 cim:ConformLoadSchedule	ConformLoadSchedule								
 cim:CongestionArea	CongestionArea								
 cim:CongestionRevenueRight	CongestionRevenueRight								
-cim:ConnectDisconnectFunction	ConnectDisconnectFunction								
+cim:ConnectDisconnectFunction	ConnectDisconnectFunction	skos:broadMatch	bfo:0000034	function	semapv:ManualMappingCuration	0.7	orcid:0009-0002-9374-1029		cim:ConnectDisconnectFunction operate under defined condition.
 cim:ConnectivityNode	ConnectivityNode	skos:broadMatch	oeo:00000296	grid node	semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474		oeo:grid node does not specify the type of supply grid. cim:ConnectivityNode specifies AC conducting equipment.
 cim:ConnectivityNodeContainer	ConnectivityNodeContainer								
 cim:Connector	Connector	skos:broadMatch	oeo:00000144	electricity grid component	semapv:ManualMappingCuration	0.6	orcid:0009-0009-2960-3474		"could also be a broad match to ""grid component link"", unsure which is the better match. Perhaps include both mappings?"
@@ -388,7 +388,7 @@ cim:EndDeviceControlType	EndDeviceControlType
 cim:EndDeviceEvent	EndDeviceEvent								
 cim:EndDeviceEventDetail	EndDeviceEventDetail								
 cim:EndDeviceEventType	EndDeviceEventType								
-cim:EndDeviceFunction	EndDeviceFunction								
+cim:EndDeviceFunction	EndDeviceFunction	skos:broadMatch	bfo:0000034	function	semapv:ManualMappingCuration	1	orcid:0009-0002-9374-1029		
 cim:EndDeviceGroup	EndDeviceGroup								
 cim:EndDeviceInfo	EndDeviceInfo	skos:broadMatch	iao:0000030	information content entity	semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474		
 cim:EndDeviceTiming	EndDeviceTiming								
@@ -1257,7 +1257,7 @@ cim:ShuntCompensatorDynamicData	ShuntCompensatorDynamicData
 cim:ShuntCompensatorInfo	ShuntCompensatorInfo								
 cim:ShuntCompensatorPhase	ShuntCompensatorPhase								
 cim:ShutdownCurve	ShutdownCurve								
-cim:SimpleEndDeviceFunction	SimpleEndDeviceFunction								
+cim:SimpleEndDeviceFunction	SimpleEndDeviceFunction	skos:broadMatch	bfo:0000034	function	semapv:ManualMappingCuration	1	orcid:0009-0002-9374-1029		
 cim:Skill	Skill								
 cim:SolarGeneratingUnit	SolarGeneratingUnit	skos:exactMatch	oeo:00000387	solar thermal collector	semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474		
 cim:SpaceAnalog	SpaceAnalog								
