@@ -99,7 +99,7 @@ cim:Author	Author	skos:exactMatch	oeo:00000064	author	semapv:ManualMappingCurati
 cim:AuxiliaryAccount	AuxiliaryAccount	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474		
 cim:AuxiliaryAgreement	AuxiliaryAgreement	skos:broadMatch	oeo:00140109	contract	semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474		
 cim:AuxiliaryCost	AuxiliaryCost								
-cim:AuxiliaryEquipment	AuxiliaryEquipment								
+cim:AuxiliaryEquipment	AuxiliaryEquipment	skos:broadMatch	oeo:00020006	grid component	semapv:ManualMappingCuration	1	orcid:0009-0002-9374-1029		
 cim:AuxiliaryObject	AuxiliaryObject	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474		cim:AuxiliaryObject does not have a definition detailed enough to determine an appropriate OEO term alignment.
 cim:AuxiliaryValues	AuxiliaryValues								
 cim:AvailablityPlan	AvailablityPlan	skos:broadMatch	oeo:00030035	time span	semapv:ManualMappingCuration	0.8	orcid:0009-0009-2960-3474		
@@ -201,11 +201,11 @@ cim:Commitments	Commitments
 cim:CommodityDefinition	CommodityDefinition								
 cim:CommodityPrice	CommodityPrice								
 cim:ComModule	ComModule								
-cim:CommunicationLink	CommunicationLink								
+cim:CommunicationLink	CommunicationLink	skos:exactMatch	oeo:00000255	grid component link	semapv:ManualMappingCuration	0.9	orcid:0009-0002-9374-1029		
 cim:CompatibleUnit	CompatibleUnit								
 cim:CompleteModelToBeDeleted	CompleteModelToBeDeleted								
 cim:ComplianceEvent	ComplianceEvent								
-cim:CompositeSwitch	CompositeSwitch								
+cim:CompositeSwitch	CompositeSwitch	skos:broadMatch	oeo:00020006	grid component	semapv:ManualMappingCuration	1	orcid:0009-0002-9374-1029		
 cim:CompositeSwitchInfo	CompositeSwitchInfo	skos:broadMatch	iao:0000030	information content entity	semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474		
 cim:ConcentricNeutralCableInfo	ConcentricNeutralCableInfo	skos:broadMatch	iao:0000030	information content entity	semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474		
 cim:ConditionFactor	ConditionFactor								
@@ -261,7 +261,7 @@ cim:CRRMarket	CRRMarket
 cim:CRROrgRole	CRROrgRole	skos:broadMatch	bfo:0000023	role	semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474		
 cim:CRRSegment	CRRSegment								
 cim:CSCDynamics	CSCDynamics								
-cim:CsConverter	CsConverter								
+cim:CsConverter	CsConverter	skos:broadMatch	oeo:00020006	grid component	semapv:ManualMappingCuration	1	orcid:0009-0002-9374-1029		
 cim:CSCtype1	CSCtype1	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474		CIM does not have a definition for this term.
 cim:CSCUserDefined	CSCUserDefined								
 cim:CTTempActivePowerCurve	CTTempActivePowerCurve								
@@ -575,7 +575,7 @@ cim:FossilFuel	FossilFuel	skos:exactMatch	oeo:00000014	fossil combustion fuel	se
 cim:FossilSteamSupply	FossilSteamSupply								
 cim:FrameworkPart	FrameworkPart								
 cim:Frequency	Frequency	skos:relatedMatch	uo:0000105	frequency unit	semapv:ManualMappingCuration	0.9	orcid:0009-0009-2960-3474		OEO describes the unit. CIM describes the quantity value measured in this unit.
-cim:FrequencyConverter	FrequencyConverter								
+cim:FrequencyConverter	FrequencyConverter	skos:broadMatch	oeo:00000144	electricity grid component	semapv:ManualMappingCuration	0.7	orcid:0009-0002-9374-1029		
 cim:FTR	FTR								
 cim:FuelAllocationSchedule	FuelAllocationSchedule								
 cim:FuelCostCurve	FuelCostCurve								
@@ -1475,7 +1475,7 @@ cim:Volume	Volume	skos:exactMatch	oeo:00320057	volume	semapv:ManualMappingCurati
 cim:VolumeFlowRate	VolumeFlowRate	skos:exactMatch	oeo:00090000	volumetric flow rate value	semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474		
 cim:VsCapabilityCurve	VsCapabilityCurve								
 cim:VSCDynamics	VSCDynamics								
-cim:VsConverter	VsConverter								
+cim:VsConverter	VsConverter	skos:broadMatch	oeo:00000206	electronic hardware	semapv:ManualMappingCuration	1	orcid:0009-0002-9374-1029		
 cim:VSCtype1	VSCtype1	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474		CIM does not have a definition for this term.
 cim:VSCUserDefined	VSCUserDefined								
 cim:WaterLevel	WaterLevel	skos:exactMatch	sssom:NoTermFound		semapv:ManualMappingCuration	1	orcid:0009-0009-2960-3474		
