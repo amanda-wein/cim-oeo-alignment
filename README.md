@@ -53,12 +53,12 @@ The vocabulary terms and definitions used for this alignment can be found here:
    - ORCIDs are preferred (e.g. `orcid:0009-0009-2960-3474`).
    - Separate multiple reviewers using `|` (e.g. `orcid:reviewer1|orcid:reviewer2`).
 10. **reviewer_agreement**
-   - A number between -1 and 1 indicating the reviewer's confidence in the accuracy of the mapping.
-   - -1 indicates full confidence that the mapping is incorrect.
-   - 1 indicates full confidence that the mapping is correct.
-   - 0 indicates that the reviewer is not sure if the mapping is correct.
+      - A number between -1 and 1 indicating the reviewer's confidence in the accuracy of the mapping.
+      - -1 indicates full confidence that the mapping is incorrect.
+      - 1 indicates full confidence that the mapping is correct.
+      - 0 indicates that the reviewer is not sure if the mapping is correct.
 11. **comment**
-   - Any additional comments regarding the mapping.
+      - Any additional comments regarding the mapping.
 
 ## Notes on SSSOM Usage
 
